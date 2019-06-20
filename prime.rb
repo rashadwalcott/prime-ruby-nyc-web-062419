@@ -6,3 +6,14 @@ def prime?(num)
 
   true
 end
+
+def primes(max)
+  primes = []
+
+  (2...max).each do |num|
+    primes << num if is_prime?(num)
+  end
+
+  primes?
+end
+end
