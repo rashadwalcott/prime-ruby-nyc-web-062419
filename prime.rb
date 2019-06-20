@@ -14,6 +14,6 @@ def primes(max)
     primes << num if is_prime?(num)
   end
 
-  primes
+  primes?
 end
 end
